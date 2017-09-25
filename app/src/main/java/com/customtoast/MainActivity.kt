@@ -47,9 +47,7 @@ class MainActivity : AppCompatActivity() {
 
             _Toast.bottomToastSuccess(this,R.mipmap.ic_empty,color,"#"+color+" Color with icon")
 
-
         }
-
 
     }
 
