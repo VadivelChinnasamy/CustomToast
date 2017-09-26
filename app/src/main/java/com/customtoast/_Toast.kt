@@ -45,7 +45,7 @@ object _Toast {
 
         val toast = Toast(_context)
         toast.duration = Toast.LENGTH_LONG
-        toast.setGravity(Gravity.BOTTOM, 0, 0)
+        toast.setGravity(Gravity.BOTTOM, 0, 0) //Change toast gravity
         toast.view = layout//setting the view of custom toast layout
         toast.show()
 
